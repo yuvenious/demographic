@@ -1,12 +1,12 @@
 ### Summary
 This analysis started from the hypothesis that the demographic information may give a valuable
 source to predict citizens’ voting behavior. This predictive model was made by the demographic
-information of 388 municipalities and corresponding election result of 2017. The model can be used to
+information of 388 municipalities and corresponding election result of ****. The model can be used to
 **classify 388 municipalities into one of 6 political groups** by its demographic data . For
 example, given two municipalities’ demographic data, the model can estimate how their voting
 patterns will be and whether they share a similar voting pattern.
-Method
 
+### Method
 In short, it is a classification (y = cluster of political preference, 0 ~ 5) learning with multiple
 numeric predictors (x = demographic data, 63). Since the original data contains 63 independent
 (predictors: demographic) and 28 dependent variables (target: parties), such high dimensions of
